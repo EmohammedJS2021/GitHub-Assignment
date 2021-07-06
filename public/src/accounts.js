@@ -1,5 +1,5 @@
 //i exported the findFucntion from /books.js and used it in this module.
-const {findFunction} = require("/workspace/node/public/src/books.js")
+const {findFunction} = require("./books.js")
 
 
 function findAccountById(accounts, id) {
